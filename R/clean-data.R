@@ -44,5 +44,8 @@ df <- polity_df %>%
          autoc = na_if(autoc, -66)) %>%
   glimpse()
 
-# write to file 
-write_csv(df, "data/democracy-life.csv")
+# write complete observations for 2016 to file 
+df %>%
+  drop_na(democ, autoc, life_expectancy) %>%
+  filter(year == 2016) %>%
+  write_csv(df, "data/democracy-life.csv")
