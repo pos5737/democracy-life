@@ -48,4 +48,4 @@ df <- polity_df %>%
 df %>%
   drop_na(democ, autoc, life_expectancy) %>%
   filter(year == 2016) %>%
-  write_csv(df, "data/democracy-life.csv")
+  write_csv("data/democracy-life.csv")
