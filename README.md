@@ -13,6 +13,18 @@ Democracy and Life: A Dataset
         newborn infant would live if prevailing patterns of mortality at
         the time of its birth were to stay the same throughout its
         life.”
+  - I downloaded the raw GDP per capita dataset
+    `raw-data/API_NY.GDP.PCAP.KD_DS2_en_csv_v2_315877.csv` from [the
+    World Bank](https://data.worldbank.org/indicator/NY.GDP.PCAP.KD)
+    (variable indicator code: NY.GDP.PCAP.KD) on 2019-10-20.
+      - GDP per capita (constant 2010 US$)
+      - GDP per capita is gross domestic product divided by midyear
+        population. GDP is the sum of gross value added by all resident
+        producers in the economy plus any product taxes and minus any
+        subsidies not included in the value of the products. It is
+        calculated without making deductions for depreciation of
+        fabricated assets or for depletion and degradation of natural
+        resources. Data are in constant 2010 U.S. dollars.
   - I download the Polity IV dataset `raw-data/p4v2018.xls` from the
     [Center for Systematic
     Peace](http://www.systemicpeace.org/inscrdata.html) on 2019-20-20.
